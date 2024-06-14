@@ -1,0 +1,65 @@
+/* .container {
+    height: auto;
+    
+   } */
+   .row {
+    height: 640px;
+   }
+   .left-box {
+    background-image: url('images/road.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+   .right-box {
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+   }
+   .right-box img {
+    height: 135px;
+    width: 295px;
+    margin-left: 70px;
+   }
+   h6 {
+    text-align: center;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.524);
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding-top: 50px;
+   }
+   h5 {
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 15px;
+    text-align: center;
+   }
+   h1 {
+    color: #1472d0;
+    font-size: 44px;
+    padding-top: 20px;
+   }
+   h6 {
+    margin: auto;
+   }
+   .icons {
+    text-align: center;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 5px 12px;
+    background-color: rgba(255, 255, 255, 0.864);
+    padding-right: 5px;
+   }
+   .icons h4 {
+    font-size: large;
+    font-weight: 700;
+    color: #1472d0;
+   }
+   .icons {
+    position: absolute;
+    bottom: 80%;
+    right: 0;
+   }
