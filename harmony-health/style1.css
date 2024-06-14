@@ -1,0 +1,29 @@
+.custom-bar{
+    float: left;
+    position:absolute;
+    width: 100%;
+    z-index: 5000 !important;
+}
+.first-button{
+    border: 2px solid rgb(223, 220, 220);
+    width: 80px;
+    /* font-weight:bold; */
+    font-size: medium;
+    background-color: rgb(170, 177, 182);
+    
+}
+
+.icons{
+    width: 30px;
+    height: 72px; 
+    border-top-right-radius: 15px;
+    position: relative;
+    top: 129px;
+    right: 2.2%;
+    
+}
+.column-left{
+    position: relative;
+    top: 25%;
+}
+ 
