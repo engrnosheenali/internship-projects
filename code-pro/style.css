@@ -38,10 +38,10 @@
     font-size: 15px;
     text-align: center;
    }
-   h1 {
+   h2 {
     color: #1472d0;
     font-size: 44px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
    }
    h6 {
     margin: auto;

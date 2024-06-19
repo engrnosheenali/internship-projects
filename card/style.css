@@ -1,0 +1,25 @@
+.card {
+    background-color: rgba(231, 167, 88, 0.852);
+    color: white;
+  }
+  .lines{
+    /* width: 10%; */
+     height: 45%; 
+     position: absolute; 
+     right: 20%; 
+     bottom: 62%; 
+     left: 80%; 
+     transform: rotate(30deg); 
+  }
+  .description {
+    position: relative; /* Changed from absolute */
+    margin-top: 10px; /* Adjust as needed */
+  }
+  .pho {
+    width: 75%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 85%;
+  }
+  
