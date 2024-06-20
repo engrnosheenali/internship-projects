@@ -1,0 +1,54 @@
+.btn-1-but {
+  background-color:rgba( 255, 0 , 0, 0.195);
+  border: 1px solid red;
+  color:rgb(233, 29, 29);
+  border-radius: 5px;
+  padding: 5px 37px;
+  margin-right: 0%;
+  
+}
+ .btn-2-but{
+
+  border: none;
+  background-color: rgba(204, 208, 211, 0.267);
+  padding: 5px 37px;
+  border-radius: 5px;
+}
+.card {
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+    
+  }
+  
+  .card-img-top{
+    /* height: 250%; */
+    object-fit: cover;
+    
+  }
+  
+  .card-body {
+    padding: 1rem;
+    background-color: #292828;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  span {
+    margin: 8px;
+    font-size: medium;
+    color: grey;
+  }
+  .contact {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
