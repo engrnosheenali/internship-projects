@@ -1,0 +1,80 @@
+.photo{
+  background-image: url(images/background.jpg);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 20px;
+  /* border-radius: 19px; */
+}
+.main {
+  position: absolute;
+  top: 60px;
+}
+.words h6 {
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+
+.inputs .icons {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+}
+
+
+
+.one {
+  border: 2px solid;
+  width: fit-content;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+.last-bton {
+  background-color: rgb(58, 86, 117);
+  border-radius: 4px;
+}
+
+.new-line {
+  display: block;
+  padding-left: 33px;
+}
+
+
+
+
+.scnd-column {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-right-radius: 13px;
+  border-bottom-right-radius:13px ;
+}
+
+.scnd-column .text-danger {
+  color: red;
+}
+
