@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div>hello from nosheen</div>
+    <button id="btn">click me</button> -->
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, autem
+      corporis! Maxime aspernatur quas ex magni reiciendis at commodi ab vero
+      excepturi rerum cupiditate ipsa quam, fugiat totam cumque voluptate.
+    </p>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- internal js -->
+    <script>
+      //   $("#btn").dblclick(function () {
+      //     $("div").text("hhhh");
+      //   });
+      //     $("#p1").mouseenter(function(){
+      //   alert("enter you p1!")
+      // });
+      $("#p1").hover(
+        function () {
+          alert("you leave p1!");
+        },
+        function () {
+          alert("bye bye");
+        }
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>welcome to time</div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+      repellendus similique distinctio ullam numquam, maiores dignissimos
+      provident! Cum porro eveniet sed similique non unde, sapiente explicabo ex
+      architecto quia mollitia.
+    </p>
+    <button id="btn">hit me</button>
+
+    <!-- my html ends here -->
+    <!-- my jquery starts here -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          //   $("div").text("we are learning jquery");
+          $("p").hide();
+        });
+      });
+    </script>
+  </body>
+</html>

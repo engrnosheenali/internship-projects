@@ -1,0 +1,18 @@
+/* styles.css */
+body.blue-theme {
+  background-color: #f0f7ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+.blue-theme .navbar {
+  background-color: #333 !important; /* Dark navbar background */
+}
+
+.blue-theme #home {
+  background-color: #333; /* Dark section background */
+}
+
+.blue-theme .btn {
+  background-color: #00ffd5; /* Blue button background */
+  border-color: #00fff2; /* Blue button border */
+}
