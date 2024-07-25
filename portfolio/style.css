@@ -411,6 +411,47 @@ section .title::after {
 .owl-dot:hover {
   background: rgb(255, 191, 0) !important;
 }
+/* new */
+@media (max-width: 768px) {
+  .skills .skills-content .column {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .skills .skills-content .left .text {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .skills .skills-content .right .bars {
+    margin-bottom: 10px;
+  }
+  .skills .skills-content .right .info {
+    font-size: 14px;
+  }
+  .skills .skills-content .right .line {
+    height: 3px;
+  }
+  .skills .skills-content .right .line::before {
+    top: 0;
+  }
+  .skills .skills-content .right .html::before,
+  .skills .skills-content .right .css::before,
+  .skills .skills-content .right .js::before,
+  .skills .skills-content .right .php::before,
+  .skills .skills-content .right .mysql::before {
+    height: 3px;
+  }
+}
+@media (max-width: 768px) {
+  .skills .skills-content .left a {
+    font-size: 16px;
+    padding: 6px 12px;
+    margin-top: 15px;
+  }
+}
+
 /* projects section */
 .projects {
   padding: 80px 0;
